@@ -52,13 +52,13 @@ These prompts/audios were used for the qualitative study we report in our paper.
 
 ## Memorization analysis
 
-Recent works examined the potential of generative models to memorize training data, especially for repeated elements in the training set. Further, musicLM conducted a memorization analysis to address concerns on the potential misappropriation of creative content. Adhering to principles of responsible model development, we also run a comprehensive study on memorization. 
+Recent works examined the potential of generative models to memorize training data, especially for repeated elements in the training set. Adhering to principles of responsible model development, we also run a comprehensive study on memorization. 
 
-Considering the increased probability of memorizing repeated music within the dataset, we start by studying if our training set contains repeated data. We embed all our training data using the LAION-CLAP audio encoder to select audios that are close in this space based on a manually set threshold. The threshold is set such that the selected audios correspond to exact replicas. With this process, we identify 5566 repeated audios in our training set.
+In light of the possible risk of memorizing repeated audio within the training set, we start by studying if our dataset contains repeated data. We embed all our training data using the LAION-CLAP audio encoder to select audios that are close in this space based on a manually set threshold. The threshold is set such that the selected audio correspond to exact replicas. With this process, we identify 3,693 Freesound and 856 FMA repeated audios.
 
-We compare our model's generations against the training set in LAION-CLAP space. Generations are from 5566 prompts within the repeated training data (in-distribution), and 586 prompts from the Song Describer Dataset (no-singing, out-of-distribution). We then identify the top-50 generated music that is closest to the training data and listen. 
+Our methodology is based on comparing our model's generations against the training set in LAION-CLAP space. We then select the top-50 generations that are closest to the training data (the memorization candidates) and listen.  We listened to memorization candidates generated with prompts from the identified repeated data in our training set, and did not find memorization. We also listened to memorization candidates from 11,000 random prompts from the training set, and did not find memorization. We even listened to memorization candidates from outstanding generations, and did not find memorization. 
+The most interesting memorization candidates, together with their closest training data, are listed here. We extensively listened to potential memorization candidates, and **could not find memorization**. Those are the most interesting candidates from (repeated) training data prompts:
 
-We extensively listened to potential memorization candidates, and **could not find memorization**. Those are the most interesting candidates from (repeated) training data prompts:
 
 | Generation by our model | Closest #1 | Closest #2 | Closest #3 | Prompt |
 | ----------------------- | ---------- | ---------- | ---------- | ------ |
