@@ -57,10 +57,10 @@ Recent works examined the potential of generative models to memorize training da
 In light of the possible risk of memorizing repeated audio within the training set, we start by studying if our dataset contains repeated data. We embed all our training data using the LAION-CLAP audio encoder to select audios that are close in this space based on a manually set threshold. The threshold is set such that the selected audio correspond to exact replicas. With this process, we identify 3,693 Freesound and 856 FMA repeated audios.
 
 Our methodology is based on comparing our model's generations against the training set in LAION-CLAP space. We then select the top-50 generations that are closest to the training data (the memorization candidates) and listen.  We listened to memorization candidates generated with prompts from the identified repeated data in our training set, and did not find memorization. We also listened to memorization candidates from 11,000 random prompts from the training set, and did not find memorization. We even listened to memorization candidates from outstanding generations, and did not find memorization. 
-The most interesting memorization candidates, together with their closest training data, are listed here. We extensively listened to potential memorization candidates, and **could not find memorization**. Those are the most interesting candidates from (repeated) training data prompts:
+The most interesting memorization candidates, together with their closest training data, are listed here. We extensively listened to potential memorization candidates, and **could not find memorization**. Those are the most interesting candidates from training data prompts:
 
 
-| Generation by our model | Closest audio in the dataset  | Prompt |
+| Generation by our model | Closest training data  | Prompt |
 | ----------------------- | ----------- | ------ |
 | <audio controls preload=False><source src="audio/clarinet.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freesound.org/people/MTG/sounds/357181/">link</a>| Scale, clarinet, Asharpmajor, neumann-U87, good-sounds.  |
 | <audio controls preload=False><source src="audio/noise.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freesound.org/people/OldSlowVideogamer/sounds/366116/">link</a>| Disturb, no-signal, tv, noise, radio, high-disturbance, frequency-jam, white-noise. |
