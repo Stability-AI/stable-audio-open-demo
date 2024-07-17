@@ -10,7 +10,20 @@
 
 Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz from text prompts. It comprises three components: an autoencoder that compresses waveforms into a manageable sequence length, a T5-based text embedding for text conditioning, and a transformer-based diffusion (DiT) model that operates in the latent space of the autoencoder.
 
-## Comparison with state-of-the-art (song describer dataset prompts)
+## Generations by the Stable Audio Open community
+
+asdf
+
+## Generations from AudioCaps prompts
+
+**Prompt**: Calming instrumental music primarily on piano can be used for relaxing.
+
+| Our Model | MusicGen-large-stereo | Ground-truth | 
+| --------- | -------------- | --------------- | 
+| <audio controls preload=False><source src="audio/1091_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
+
+
+## Generations from Song Describer Dataset prompts
 
 **Prompt**: An uplifting jazz song that makes your head shake. 
 
