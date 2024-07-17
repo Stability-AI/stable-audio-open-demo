@@ -103,22 +103,3 @@ The most interesting memorization candidates, together with their closest traini
 | <audio controls preload=False><source src="audio/1k.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freesound.org/people/Sean_hay_ca/sounds/174551/">link</a>|  1000Hz 48k sample rate MP3. |
 
 
-## Autoencoder: reconstructions
-
-This comparison is useful to evaluate the audio fidelity capabilities of the autoencoder. On the left, we have the ground truth recording. On the right, we take the ground truth recording and end pass it through the autoencoder. Note that the autoencoder reconstruction is fairly transparent, very close to the ground truth.
-
-| Ground truth | Autoencoder reconstruction |
-| ------------ | -------------------------- |
-|<audio controls preload=False><source src="audio/226.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/226.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/3112.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/3112.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/3453.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/3453.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/4880.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/4880.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/4883.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/4883.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/5084.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/5084.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/5089.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/5089.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/5339.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/5339.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/5340.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/5340.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/5341.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/5341.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-|<audio controls preload=False><source src="audio/5343.mp3" type="audio/mpeg">Audio not supported by your browser.</audio><br>|<audio controls preload=False><source src="audio/5343.wav" type="audio/mpeg">Audio not supported by your browser.</audio><br>|
-
-
