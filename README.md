@@ -57,43 +57,29 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 
 ## Generations from Song Describer Dataset prompts
 
-**Prompt**: An uplifting jazz song that makes your head shake. 
-
-| Our Model (stereo, 44.1kHz) | MusicGen-large-stereo (stereo, 32kHz) | 
-| --------- | ---------------------- | 
-| <audio controls preload=False><source src="audio/1001_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1001_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
-
-**Prompt**: One cannot avoid moving the feet and neck listening to this fast and loopy brazilian tune.
-
-| Our Model | MusicGen-large-stereo  | 
-| --------- | ---------------------- | 
-| <audio controls preload=False><source src="audio/94_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/94_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
-
-**Prompt**: Ambiental song that evokes calm with a progression of stereo electronic elements.
-
-| Our Model | MusicGen-large-stereo  | 
-| --------- | ---------------------- | 
-| <audio controls preload=False><source src="audio/906_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/906_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
-
-**Prompt**: This song starts with a ukulele and builds up with percussion using claps and an acoustic guitar that plays the same rhythm as the ukulele with melody played on a xylophone and has a very upbeat feel to it.
-
-| Our Model (stereo, 44.1kHz) | MusicGen-large-stereo (stereo, 32kHz) | Ground-truth (stereo, 44.1kHz) | 
-| --------- | -------------- | --------------- | 
-| <audio controls preload=False><source src="audio/1069_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1969_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1069.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
-
-**Prompt**: Calming instrumental music primarily on piano can be used for relaxing.
-
-| Our Model | MusicGen-large-stereo | Ground-truth | 
-| --------- | -------------- | --------------- | 
-| <audio controls preload=False><source src="audio/1091_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
-
 **Prompt**: A dance music club banger, with a heavy kick, subtle supporting percussion like tabla and bongos, prominent pop synth lines, and a repetitive hook.
 
-| Our Model | MusicGen-large-stereo | Ground-truth | 
+| Stable Audio Open | Stable Audio 2.0 | MusicGen-large-stereo | 
 | --------- | -------------- | --------------- | 
-| <audio controls preload=False><source src="audio/3_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| <audio controls preload=False><source src="audio/3_sao.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
-These prompts/audios were used for the qualitative study we report in our paper.
+**Prompt**: a danceable electronic track in the genre of dance
+
+| Stable Audio Open | Stable Audio 2.0 | MusicGen-large-stereo | 
+| --------- | -------------- | --------------- | 
+| <audio controls preload=False><source src="audio/24_sao.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/24_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/24_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
+
+**Prompt**: Fast beat, hip hop, upbeat that has a positive vibe.
+
+| Stable Audio Open | Stable Audio 2.0 | MusicGen-large-stereo | 
+| --------- | -------------- | --------------- | 
+| <audio controls preload=False><source src="audio/28_sao.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/28_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/28_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
+
+**Prompt**: An instrumental song which employs a worldbeat element through its eerie percussion
+
+| Stable Audio Open | Stable Audio 2.0 | MusicGen-large-stereo | 
+| --------- | -------------- | --------------- | 
+| <audio controls preload=False><source src="audio/38_sao.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/38_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/38_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 ## Memorization analysis
 
