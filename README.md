@@ -60,16 +60,17 @@ Our methodology is based on comparing our model's generations against the traini
 The most interesting memorization candidates, together with their closest training data, are listed here. We extensively listened to potential memorization candidates, and **could not find memorization**. Those are the most interesting candidates from (repeated) training data prompts:
 
 
-| Generation by our model | Closest  | Prompt |
+| Generation by our model | Closest audio in the dataset  | Prompt |
 | ----------------------- | ----------- | ------ |
 | <audio controls preload=False><source src="audio/clarinet.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freesound.org/people/MTG/sounds/357181/">link</a>| Scale, clarinet, Asharpmajor, neumann-U87, good-sounds.  |
 | <audio controls preload=False><source src="audio/noise.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freesound.org/people/OldSlowVideogamer/sounds/366116/">link</a>| Disturb, no-signal, tv, noise, radio, high-disturbance, frequency-jam, white-noise. |
 | <audio controls preload=False><source src="audio/drumloop2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freesound.org/people/bcnlab/sounds/270756/">link</a>| 120, bpm, beat, Drums, blues, loop. |
 | <audio controls preload=False><source src="audio/rain.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freesound.org/people/ionisaattor/sounds/256173/">link</a>|  Thunder, storm, field-recording, rain. |
-| <audio controls preload=False><source src="audio/drumloop.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freesound.org/people/stoltingmediagroup/sounds/596826/">link</a>|  160-BPM, kick-hat-snare, drumloop. |
-| <audio controls preload=False><source src="audio/1k.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freesound.org/people/Sean_hay_ca/sounds/174551/">link</a>|  1000Hz 48k sample rate MP3. |
 | <audio controls preload=False><source src="audio/violin.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freemusicarchive.org/music/Kosta_T/__________________/Kosta_T_-__-_03____-/">link</a>|   Avant-garde, improv, contemporary classical, instrumental. |
 | <audio controls preload=False><source src="audio/piano.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freemusicarchive.org/music/Unheard_Music_Concepts/Industry/10_The_Trail/">link</a>|  Piano, modern jazz, minimalism, instrumental. |
+| <audio controls preload=False><source src="audio/drumloop.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freesound.org/people/stoltingmediagroup/sounds/596826/">link</a>|  160-BPM, kick-hat-snare, drumloop. |
+| <audio controls preload=False><source src="audio/1k.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <a href="https://freesound.org/people/Sean_hay_ca/sounds/174551/">link</a>|  1000Hz 48k sample rate MP3. |
+
 
 ## Autoencoder: reconstructions
 
