@@ -12,15 +12,34 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 
 ## Generations by the Stable Audio Open community
 
-asdf
+**Prompt**: 80s bass guitar.
+
+<audio controls preload=False><source src="audio/bass80s.mp3" type="audio/mpeg">Audio not supported by your browser.</audio>
+
+**Prompt**: 80s drum beat.
+
+<audio controls preload=False><source src="audio/drums80s.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> 
+
+**Prompt**: Pinball bumper.
+
+<audio controls preload=False><source src="audio/paintball.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> 
+
+**Prompt**: Slap mandolin.
+
+<audio controls preload=False><source src="audio/slap.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> 
+
+**Prompt**: A military tank moving its treads across the ground before firing its artillery.
+
+<audio controls preload=False><source src="audio/tank.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> 
+
 
 ## Generations from AudioCaps prompts
 
-**Prompt**: Calming instrumental music primarily on piano can be used for relaxing.
+**Prompt**: An engine throttles and clanks and then suddenly accelerates off into the distance.
 
-| Our Model | MusicGen-large-stereo | Ground-truth | 
+| Stable Audio Open | Stable Audio 2.0 | AudioLDM2-48kHz | 
 | --------- | -------------- | --------------- | 
-| <audio controls preload=False><source src="audio/1091_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/1091.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
+| <audio controls preload=False><source src="audio/103043_sao.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/103043_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/103043_aldm248.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 
 ## Generations from Song Describer Dataset prompts
