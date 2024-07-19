@@ -12,29 +12,23 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 
 ## Generations by the community
 
-**Prompt**: 80s bass guitar.
+**Prompt**: Pinball bumper.
 
-<audio controls preload=False><source src="audio/bass80s.mp3" type="audio/mpeg">Audio not supported by your browser.</audio>
+<audio controls preload=False><source src="audio/paintball.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> 
 
 **Prompt**: 80s drum beat.
 
 <audio controls preload=False><source src="audio/drums80s.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> 
 
-**Prompt**: Pinball bumper.
+**Prompt**: 80s bass guitar.
 
-<audio controls preload=False><source src="audio/paintball.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> 
+<audio controls preload=False><source src="audio/bass80s.mp3" type="audio/mpeg">Audio not supported by your browser.</audio>
 
 **Prompt**: Slap mandolin.
 
 <audio controls preload=False><source src="audio/slap.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> 
 
 ## Generations from AudioCaps prompts
-
-**Prompt**: An engine throttles and clanks and then suddenly accelerates off into the distance.
-
-| Stable Audio Open | Stable Audio 2.0 | AudioLDM2-48kHz | 
-| --------- | -------------- | --------------- | 
-| <audio controls preload=False><source src="audio/103043_sao.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/103043_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/103043_aldm248.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 **Prompt**: Rain is falling and hitting surfaces and then splashing into puddles.
 
@@ -53,6 +47,12 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 | Stable Audio Open | Stable Audio 2.0 | AudioLDM2-48kHz | 
 | --------- | -------------- | --------------- | 
 | <audio controls preload=False><source src="audio/11080_sao.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/11080_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/11080_aldm248.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
+
+**Prompt**: An engine throttles and clanks and then suddenly accelerates off into the distance.
+
+| Stable Audio Open | Stable Audio 2.0 | AudioLDM2-48kHz | 
+| --------- | -------------- | --------------- | 
+| <audio controls preload=False><source src="audio/103043_sao.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/103043_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/103043_aldm248.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
 
 ## Generations from Song Describer Dataset prompts
