@@ -63,7 +63,7 @@ Stable Audio Open generates variable-length (up to 47s) stereo audio at 44.1kHz 
 | --------- | -------------- | --------------- | 
 | <audio controls preload=False><source src="audio/3_sao.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3_sa2.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> | <audio controls preload=False><source src="audio/3_musicgen.mp3" type="audio/mpeg">Audio not supported by your browser.</audio> |
 
-**Prompt**: a danceable electronic track in the genre of dance
+**Prompt**: A danceable electronic track in the genre of dance
 
 | Stable Audio Open | Stable Audio 2.0 | MusicGen-large-stereo | 
 | --------- | -------------- | --------------- | 
