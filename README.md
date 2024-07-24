@@ -1,6 +1,6 @@
 ⚠️ *Warning: This website may not function properly on Safari. For the best experience, please use Google Chrome.*
 
-[`arXiv`](https://arxiv.org/pdf/2404.10301): Stable Audio Open paper
+[`arXiv`](https://arxiv.org/abs/2407.14358): Stable Audio Open paper
 
 [`HuggingFace`](https://huggingface.co/stabilityai/stable-audio-open-1.0): model weights
 
